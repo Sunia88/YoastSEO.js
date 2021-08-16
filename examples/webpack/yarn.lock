@@ -840,6 +840,13 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime@^7.13.10":
+  version "7.15.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
+  integrity sha512-OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.1.0", "@babel/template@^7.1.2", "@babel/template@^7.2.2":
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.2.2.tgz#005b3fdf0ed96e88041330379e0da9a708eb2907"
@@ -972,30 +979,30 @@
     "@svgr/core" "^2.4.1"
     loader-utils "^1.1.0"
 
-"@tannin/compile@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tannin/compile/-/compile-1.0.1.tgz#473f1ce4d8b63affa06f435d3224dd2ff80f741a"
-  integrity sha512-ymd9icvnkQin8UG4eRU3+xBc7gqTn/Kv5+EMY3ALWVwIl6j/7McWbCkxB8MgU40UaHJk8kLCk06wiKszXLdXWQ==
+"@tannin/compile@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@tannin/compile/-/compile-1.1.0.tgz#1e4d1c5364cbfeffa1c20352c053e19ef20ffe93"
+  integrity sha512-n8m9eNDfoNZoxdvWiTfW/hSPhehzLJ3zW7f8E7oT6mCROoMNWCB4TYtv041+2FMAxweiE0j7i1jubQU4MEC/Gg==
   dependencies:
-    "@tannin/evaluate" "^1.0.0"
-    "@tannin/postfix" "^1.0.0"
+    "@tannin/evaluate" "^1.2.0"
+    "@tannin/postfix" "^1.1.0"
 
-"@tannin/evaluate@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@tannin/evaluate/-/evaluate-1.0.0.tgz#83f79072d4ed64f031d67446aefbecf765a35167"
-  integrity sha512-gO7YbJsD8sj5/nqUbFZv71Meu2++D9n4DZov/cWwp3YJbBwKShPlWwwlXr/0vz4vuxm/gys+3NiGbZkmhlXf0Q==
+"@tannin/evaluate@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@tannin/evaluate/-/evaluate-1.2.0.tgz#468a13c45eff45340108836fc46c708457199c3f"
+  integrity sha512-3ioXvNowbO/wSrxsDG5DKIMxC81P0QrQTYai8zFNY+umuoHWRPbQ/TuuDEOju9E+jQDXmj6yI5GyejNuh8I+eg==
 
-"@tannin/plural-forms@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tannin/plural-forms/-/plural-forms-1.0.1.tgz#1115b9fcc657154f23dab955d1440836fe1e96e9"
-  integrity sha512-SXutT+XLbMOECvmWDBSqIOHhS5hzWG9875HCFGKYgp8ghGPrJ4HZ325Xc0hsRThdjgrWMEQixlbpWl4SXOQTig==
+"@tannin/plural-forms@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@tannin/plural-forms/-/plural-forms-1.1.0.tgz#cffbb060d2640a56a314e3c77cbf6ea6072b51d5"
+  integrity sha512-xl9R2mDZO/qiHam1AgMnAES6IKIg7OBhcXqy6eDsRCdXuxAFPcjrej9HMjyCLE0DJ/8cHf0i5OQTstuBRhpbHw==
   dependencies:
-    "@tannin/compile" "^1.0.0"
+    "@tannin/compile" "^1.1.0"
 
-"@tannin/postfix@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@tannin/postfix/-/postfix-1.0.0.tgz#4cf5fa8a60fc683bd36b4da8e66945c7601b475e"
-  integrity sha512-59/mWwU7sXHfoU2kI3RcWRki2Jjbz5nEVJNBN4MUyIhPjXTebAcZqgsQACvlk+sjKVOTMEMHcrFrKQbaxz/1Dw==
+"@tannin/postfix@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@tannin/postfix/-/postfix-1.1.0.tgz#6071f4204ae26c2e885cf3a3f1203a9f71e3f291"
+  integrity sha512-oocsqY7g0cR+Gur5jRQLSrX2OtpMLMse1I10JQBm8CdGMrDkh1Mg2gjsiquMHRtBs4Qwu5wgEp5GgIYHk4SNPw==
 
 "@types/q@^1.5.1":
   version "1.5.1"
@@ -1176,6 +1183,13 @@
   dependencies:
     "@babel/runtime-corejs2" "7.0.0-beta.56"
 
+"@wordpress/hooks@^2.12.3":
+  version "2.12.3"
+  resolved "https://registry.yarnpkg.com/@wordpress/hooks/-/hooks-2.12.3.tgz#3086db986d7ed2cae036c5da7b7add4db17ee51c"
+  integrity sha512-LmKiwKldZt6UYqOxV/a6+eUFXdvALFnB/pQx3RmrMvO64sgFhfR6dhrlv+uVbuuezSuv8dce1jx8lUWAT0krMA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
 "@wordpress/i18n@^1.1.0":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-1.2.3.tgz#b6607d0823828a858a648bcc5e3884ec9186820a"
@@ -1187,17 +1201,18 @@
     lodash "^4.17.10"
     memize "^1.0.5"
 
-"@wordpress/i18n@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-3.1.1.tgz#0bd0da86701c1be892e0df07f5c9016bdffe80d0"
-  integrity sha512-qZx3GcrIfPG5uOhYjb/Sz0XBT7OMkdFXYa966S8/gxWIkewD5TWV0ROQ9UX6+u7ScbblNdS87irJI0FDQ0lM3Q==
+"@wordpress/i18n@^3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-3.20.0.tgz#dc9b04b9e8c359c1b0dbae78b99b32ef2c0b4729"
+  integrity sha512-SIoOJFB4UrrYAScS4H91CYCLW9dX3Ghv8pBKc/yHGculb1AdGr6gRMlmJxZV62Cn3CZ4Ga86c+FfR+GiBu0JPg==
   dependencies:
-    "@babel/runtime" "^7.0.0"
+    "@babel/runtime" "^7.13.10"
+    "@wordpress/hooks" "^2.12.3"
     gettext-parser "^1.3.1"
-    lodash "^4.17.10"
-    memize "^1.0.5"
+    lodash "^4.17.19"
+    memize "^1.1.0"
     sprintf-js "^1.1.1"
-    tannin "^1.0.1"
+    tannin "^1.2.0"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -6635,6 +6650,11 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
 
+lodash@^4.17.19:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
 loglevel@^1.4.1, loglevel@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.1.tgz#e0fc95133b6ef276cdc8887cdaf24aa6f156f8fa"
@@ -6779,6 +6799,11 @@ memize@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/memize/-/memize-1.0.5.tgz#51d89e8407643dbc8cab98c6d56b889f9a3954e3"
   integrity sha512-Dm8Jhb5kiC4+ynYsVR4QDXKt+o2dfqGuY4hE2x+XlXZkdndlT80bJxfcMv5QGp/FCy6MhG7f5ElpmKPFKOSEpg==
+
+memize@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/memize/-/memize-1.1.0.tgz#4a5a684ac6992a13b1299043f3e49b1af6a0b0d3"
+  integrity sha512-K4FcPETOMTwe7KL2LK0orMhpOmWD2wRGwWWpbZy0fyArwsyIKR8YJVz8+efBAh3BO4zPqlSICu4vsLTRRqtFAg==
 
 memoize-one@^4.0.0:
   version "4.1.0"
@@ -9155,6 +9180,11 @@ regenerator-runtime@^0.12.0:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
 
+regenerator-runtime@^0.13.4:
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
+  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
+
 regenerator-transform@^0.13.3:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.13.3.tgz#264bd9ff38a8ce24b06e0636496b2c856b57bcbb"
@@ -10247,12 +10277,12 @@ table@^4.0.3:
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
-tannin@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/tannin/-/tannin-1.0.1.tgz#fd0723315a0d9ad1d0ee1949b72c3ba618550e61"
-  integrity sha512-dDtnwHQ63bS/Gz0ZLY+E+JCdRoTZkmoKDoC64y3hzAD2X2qrp8jSuWNUjtiYHA48mtj4Ens9xl4knAOm1t+rfQ==
+tannin@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/tannin/-/tannin-1.2.0.tgz#1da6fe65280dca4c3d84efb075b077b1b94362a6"
+  integrity sha512-U7GgX/RcSeUETbV7gYgoz8PD7Ni4y95pgIP/Z6ayI3CfhSujwKEBlGFTCRN+Aqnuyf4AN2yHL+L8x+TCGjb9uA==
   dependencies:
-    "@tannin/plural-forms" "^1.0.0"
+    "@tannin/plural-forms" "^1.1.0"
 
 tapable@^1.0.0, tapable@^1.1.0:
   version "1.1.1"
