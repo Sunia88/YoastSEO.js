@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - yoast-components > grunt-scss-to-json > scss-to-json > node-sass > sass-graph > lodash:
+        patched: '2023-08-31T16:19:29.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          yoast-components > grunt-scss-to-json > scss-to-json > node-sass >
+          sass-graph > lodash
+    - yoast-components > grunt-scss-to-json > scss-to-json > node-sass > gaze > globule > lodash:
+        patched: '2023-08-31T16:19:29.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          yoast-components > grunt-scss-to-json > scss-to-json > node-sass >
+          gaze > globule > lodash
