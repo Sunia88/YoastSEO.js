@@ -34,7 +34,7 @@
 		"html-webpack-plugin": "4.0.0-alpha.2",
 		"identity-obj-proxy": "3.0.0",
 		"jed": "^1.1.1",
-		"jest": "23.6.0",
+		"jest": "26.0.0",
 		"jest-pnp-resolver": "1.0.1",
 		"jest-resolve": "23.6.0",
 		"material-ui": "^0.18.6",
@@ -68,7 +68,7 @@
 		"webpack-manifest-plugin": "2.0.4",
 		"workbox-webpack-plugin": "3.6.3",
 		"worker-loader": "^2.0.0",
-		"yoast-components": "^4.18.1"
+		"yoast-components": "^5.24.1"
 	},
 	"scripts": {
 		"start": "node scripts/start.js",
