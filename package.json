@@ -64,7 +64,7 @@
     "@wordpress/autop": "^2.0.2",
     "htmlparser2": "^3.9.2",
     "jed": "^1.1.0",
-    "lodash-es": "^4.17.10",
+    "lodash-es": "^4.17.23",
     "loglevel": "^1.6.1",
     "parse5": "^5.1.0",
     "sassdash": "0.9.0",
